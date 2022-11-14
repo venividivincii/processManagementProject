@@ -29,7 +29,7 @@
 		<string key="concept:name" value="name"/>
 		<string key="lifecycle:transition" value="transition"/>
 		<string key="org:resource" value="resource"/>
-		<date key="time:timestamp" value="2022-11-12T18:37:14.136+01:00"/>
+		<date key="time:timestamp" value="2022-11-14T16:58:56.387+01:00"/>
 		<string key="User" value="string"/>
 	</global>
 	<classifier name="Activity" keys="concept:name"/>
@@ -265,8 +265,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000000033_00001"/>
-		<string key="variant" value="Variant 18"/>
-		<int key="variant-index" value="18"/>
+		<string key="variant" value="Variant 17"/>
+		<int key="variant-index" value="17"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="12852.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -1463,8 +1463,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000000075_00001"/>
-		<string key="variant" value="Variant 17"/>
-		<int key="variant-index" value="17"/>
+		<string key="variant" value="Variant 16"/>
+		<int key="variant-index" value="16"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="147.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -1907,119 +1907,6 @@
 		</event>
 	</trace>
 	<trace>
-		<string key="concept:name" value="2000000093_00001"/>
-		<string key="variant" value="Variant 26"/>
-		<int key="variant-index" value="26"/>
-		<string key="creator" value="Fluxicon Disco"/>
-		<float key="Cumulative net worth (EUR)" value="5868.0"/>
-		<string key="(case) Company" value="companyID_0000"/>
-		<string key="(case) Document Type" value="EC Purchase order"/>
-		<boolean key="(case) GR-Based Inv. Verif." value="true"/>
-		<boolean key="(case) Goods Receipt" value="true"/>
-		<int key="(case) Item" value="00001"/>
-		<string key="(case) Item Category" value="3-way match, invoice after GR"/>
-		<string key="(case) Item Type" value="Service"/>
-		<string key="(case) Name" value="vendor_0051"/>
-		<string key="(case) Purch. Doc. Category name" value="Purchase order"/>
-		<int key="(case) Purchasing Document" value="2000000093"/>
-		<string key="(case) Source" value="sourceSystemID_0000"/>
-		<string key="(case) Spend area text" value="Enterprise Services"/>
-		<string key="(case) Spend classification text" value="NPR"/>
-		<string key="(case) Sub spend area text" value="ICT Services"/>
-		<string key="(case) Vendor" value="vendorID_0051"/>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2017-12-31T23:59:00.000+01:00"/>
-			<string key="concept:name" value="Vendor creates invoice"/>
-			<string key="org:resource" value="NONE"/>
-			<string key="User" value="NONE"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-01-26T11:38:00.000+01:00"/>
-			<string key="concept:name" value="SRM: Created"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-01-26T12:38:00.000+01:00"/>
-			<string key="concept:name" value="SRM: Complete"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-01-26T12:38:00.000+01:00"/>
-			<string key="concept:name" value="SRM: Awaiting Approval"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-01-26T12:38:00.000+01:00"/>
-			<string key="concept:name" value="SRM: Document Completed"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-01-26T12:38:00.000+01:00"/>
-			<string key="concept:name" value="SRM: Ordered"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-01-26T12:38:00.000+01:00"/>
-			<string key="concept:name" value="SRM: In Transfer to Execution Syst."/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-01-26T12:38:00.000+01:00"/>
-			<string key="concept:name" value="Create Purchase Order Item"/>
-			<string key="org:resource" value="user_000"/>
-			<string key="User" value="user_000"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-01-26T12:38:00.000+01:00"/>
-			<string key="concept:name" value="SRM: Change was Transmitted"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-03T11:57:00.000+02:00"/>
-			<string key="concept:name" value="Record Goods Receipt"/>
-			<string key="org:resource" value="user_000"/>
-			<string key="User" value="user_000"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-03T11:57:00.000+02:00"/>
-			<string key="concept:name" value="Record Service Entry Sheet"/>
-			<string key="org:resource" value="NONE"/>
-			<string key="User" value="NONE"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-09T16:48:00.000+02:00"/>
-			<string key="concept:name" value="Record Invoice Receipt"/>
-			<string key="org:resource" value="user_001"/>
-			<string key="User" value="user_001"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-12T14:07:00.000+02:00"/>
-			<string key="concept:name" value="Clear Invoice"/>
-			<string key="org:resource" value="user_002"/>
-			<string key="User" value="user_002"/>
-		</event>
-	</trace>
-	<trace>
 		<string key="concept:name" value="2000000103_00001"/>
 		<string key="variant" value="Variant 1"/>
 		<int key="variant-index" value="1"/>
@@ -2127,8 +2014,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000000104_00001"/>
-		<string key="variant" value="Variant 17"/>
-		<int key="variant-index" value="17"/>
+		<string key="variant" value="Variant 16"/>
+		<int key="variant-index" value="16"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="226.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -3201,8 +3088,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000000143_00001"/>
-		<string key="variant" value="Variant 14"/>
-		<int key="variant-index" value="14"/>
+		<string key="variant" value="Variant 13"/>
+		<int key="variant-index" value="13"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="5196.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -5391,8 +5278,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000000216_00001"/>
-		<string key="variant" value="Variant 18"/>
-		<int key="variant-index" value="18"/>
+		<string key="variant" value="Variant 17"/>
+		<int key="variant-index" value="17"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="3186.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -7354,119 +7241,6 @@
 		</event>
 	</trace>
 	<trace>
-		<string key="concept:name" value="2000013531_00001"/>
-		<string key="variant" value="Variant 13"/>
-		<int key="variant-index" value="13"/>
-		<string key="creator" value="Fluxicon Disco"/>
-		<float key="Cumulative net worth (EUR)" value="240216.0"/>
-		<string key="(case) Company" value="companyID_0000"/>
-		<string key="(case) Document Type" value="EC Purchase order"/>
-		<boolean key="(case) GR-Based Inv. Verif." value="true"/>
-		<boolean key="(case) Goods Receipt" value="true"/>
-		<int key="(case) Item" value="00001"/>
-		<string key="(case) Item Category" value="3-way match, invoice after GR"/>
-		<string key="(case) Item Type" value="Service"/>
-		<string key="(case) Name" value="vendor_0418"/>
-		<string key="(case) Purch. Doc. Category name" value="Purchase order"/>
-		<int key="(case) Purchasing Document" value="2000013531"/>
-		<string key="(case) Source" value="sourceSystemID_0000"/>
-		<string key="(case) Spend area text" value="Sales"/>
-		<string key="(case) Spend classification text" value="NPR"/>
-		<string key="(case) Sub spend area text" value="Color Collateral"/>
-		<string key="(case) Vendor" value="vendorID_0430"/>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2017-12-15T23:59:00.000+01:00"/>
-			<string key="concept:name" value="Vendor creates invoice"/>
-			<string key="org:resource" value="NONE"/>
-			<string key="User" value="NONE"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-09T14:43:00.000+02:00"/>
-			<string key="concept:name" value="SRM: Created"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-09T16:43:00.000+02:00"/>
-			<string key="concept:name" value="SRM: Complete"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-09T16:43:00.000+02:00"/>
-			<string key="concept:name" value="SRM: Awaiting Approval"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-09T16:43:00.000+02:00"/>
-			<string key="concept:name" value="SRM: Document Completed"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-09T16:43:00.000+02:00"/>
-			<string key="concept:name" value="SRM: In Transfer to Execution Syst."/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-09T16:43:00.000+02:00"/>
-			<string key="concept:name" value="SRM: Ordered"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-09T16:43:00.000+02:00"/>
-			<string key="concept:name" value="SRM: Change was Transmitted"/>
-			<string key="org:resource" value="batch_00"/>
-			<string key="User" value="batch_00"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-04-09T16:43:00.000+02:00"/>
-			<string key="concept:name" value="Create Purchase Order Item"/>
-			<string key="org:resource" value="user_000"/>
-			<string key="User" value="user_000"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-05-14T08:23:00.000+02:00"/>
-			<string key="concept:name" value="Record Goods Receipt"/>
-			<string key="org:resource" value="user_000"/>
-			<string key="User" value="user_000"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-05-14T08:23:00.000+02:00"/>
-			<string key="concept:name" value="Record Service Entry Sheet"/>
-			<string key="org:resource" value="NONE"/>
-			<string key="User" value="NONE"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-06-08T17:47:00.000+02:00"/>
-			<string key="concept:name" value="Record Invoice Receipt"/>
-			<string key="org:resource" value="user_004"/>
-			<string key="User" value="user_004"/>
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete"/>
-			<date key="time:timestamp" value="2018-06-15T11:25:00.000+02:00"/>
-			<string key="concept:name" value="Clear Invoice"/>
-			<string key="org:resource" value="user_002"/>
-			<string key="User" value="user_002"/>
-		</event>
-	</trace>
-	<trace>
 		<string key="concept:name" value="2000013533_00001"/>
 		<string key="variant" value="Variant 6"/>
 		<int key="variant-index" value="6"/>
@@ -8570,8 +8344,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000013585_00001"/>
-		<string key="variant" value="Variant 15"/>
-		<int key="variant-index" value="15"/>
+		<string key="variant" value="Variant 14"/>
+		<int key="variant-index" value="14"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="39150.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -8852,8 +8626,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000013589_00001"/>
-		<string key="variant" value="Variant 15"/>
-		<int key="variant-index" value="15"/>
+		<string key="variant" value="Variant 14"/>
+		<int key="variant-index" value="14"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="27173.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -10773,8 +10547,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000013652_00001"/>
-		<string key="variant" value="Variant 15"/>
-		<int key="variant-index" value="15"/>
+		<string key="variant" value="Variant 14"/>
+		<int key="variant-index" value="14"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="19673.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -11705,8 +11479,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000013671_00001"/>
-		<string key="variant" value="Variant 13"/>
-		<int key="variant-index" value="13"/>
+		<string key="variant" value="Variant 18"/>
+		<int key="variant-index" value="18"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="1114.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -12468,8 +12242,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000033460_00001"/>
-		<string key="variant" value="Variant 14"/>
-		<int key="variant-index" value="14"/>
+		<string key="variant" value="Variant 13"/>
+		<int key="variant-index" value="13"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="1019.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -14333,8 +14107,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000033519_00001"/>
-		<string key="variant" value="Variant 16"/>
-		<int key="variant-index" value="16"/>
+		<string key="variant" value="Variant 15"/>
+		<int key="variant-index" value="15"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="10676.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -16184,8 +15958,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000033560_00002"/>
-		<string key="variant" value="Variant 17"/>
-		<int key="variant-index" value="17"/>
+		<string key="variant" value="Variant 16"/>
+		<int key="variant-index" value="16"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="104.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -16615,8 +16389,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000033568_00001"/>
-		<string key="variant" value="Variant 16"/>
-		<int key="variant-index" value="16"/>
+		<string key="variant" value="Variant 15"/>
+		<int key="variant-index" value="15"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="72443.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -17399,8 +17173,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000033583_00001"/>
-		<string key="variant" value="Variant 27"/>
-		<int key="variant-index" value="27"/>
+		<string key="variant" value="Variant 26"/>
+		<int key="variant-index" value="26"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="342.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -17519,8 +17293,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000033584_00001"/>
-		<string key="variant" value="Variant 14"/>
-		<int key="variant-index" value="14"/>
+		<string key="variant" value="Variant 13"/>
+		<int key="variant-index" value="13"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="95262.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -17632,8 +17406,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000033585_00001"/>
-		<string key="variant" value="Variant 16"/>
-		<int key="variant-index" value="16"/>
+		<string key="variant" value="Variant 15"/>
+		<int key="variant-index" value="15"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="11688.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -20097,8 +19871,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052671_00001"/>
-		<string key="variant" value="Variant 14"/>
-		<int key="variant-index" value="14"/>
+		<string key="variant" value="Variant 13"/>
+		<int key="variant-index" value="13"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="91937.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -21220,8 +20994,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052722_00001"/>
-		<string key="variant" value="Variant 15"/>
-		<int key="variant-index" value="15"/>
+		<string key="variant" value="Variant 14"/>
+		<int key="variant-index" value="14"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="58471.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -22053,8 +21827,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052747_00001"/>
-		<string key="variant" value="Variant 13"/>
-		<int key="variant-index" value="13"/>
+		<string key="variant" value="Variant 18"/>
+		<int key="variant-index" value="18"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="10740.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -22738,8 +22512,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052765_00001"/>
-		<string key="variant" value="Variant 16"/>
-		<int key="variant-index" value="16"/>
+		<string key="variant" value="Variant 15"/>
+		<int key="variant-index" value="15"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="15242.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -23077,8 +22851,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052770_00001"/>
-		<string key="variant" value="Variant 18"/>
-		<int key="variant-index" value="18"/>
+		<string key="variant" value="Variant 17"/>
+		<int key="variant-index" value="17"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="14809.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -23190,8 +22964,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052771_00001"/>
-		<string key="variant" value="Variant 18"/>
-		<int key="variant-index" value="18"/>
+		<string key="variant" value="Variant 17"/>
+		<int key="variant-index" value="17"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="16867.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -23416,8 +23190,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052786_00001"/>
-		<string key="variant" value="Variant 27"/>
-		<int key="variant-index" value="27"/>
+		<string key="variant" value="Variant 26"/>
+		<int key="variant-index" value="26"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="1409.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -23868,8 +23642,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052802_00001"/>
-		<string key="variant" value="Variant 26"/>
-		<int key="variant-index" value="26"/>
+		<string key="variant" value="Variant 27"/>
+		<int key="variant-index" value="27"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="53042.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -25150,8 +24924,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052864_00001"/>
-		<string key="variant" value="Variant 17"/>
-		<int key="variant-index" value="17"/>
+		<string key="variant" value="Variant 16"/>
+		<int key="variant-index" value="16"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="914.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -26033,8 +25807,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052917_00001"/>
-		<string key="variant" value="Variant 13"/>
-		<int key="variant-index" value="13"/>
+		<string key="variant" value="Variant 18"/>
+		<int key="variant-index" value="18"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="13856.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
@@ -26146,8 +25920,8 @@
 	</trace>
 	<trace>
 		<string key="concept:name" value="2000052935_00001"/>
-		<string key="variant" value="Variant 13"/>
-		<int key="variant-index" value="13"/>
+		<string key="variant" value="Variant 18"/>
+		<int key="variant-index" value="18"/>
 		<string key="creator" value="Fluxicon Disco"/>
 		<float key="Cumulative net worth (EUR)" value="58370.0"/>
 		<string key="(case) Company" value="companyID_0000"/>
