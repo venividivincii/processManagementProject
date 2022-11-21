@@ -1,0 +1,3739 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<classifier name="Activity" keys="concept:name" />
+	<classifier name="Resource" keys="org:resource" />
+	<string key="lifecycle:model" value="standard" />
+	<string key="creator" value="Fluxicon Disco" />
+	<string key="library" value="Fluxicon Octane" />
+	<global scope="trace">
+		<string key="concept:name" value="name" />
+		<string key="variant" value="string" />
+		<int key="variant-index" value="0" />
+		<string key="(case) Company" value="string" />
+		<string key="(case) Document Type" value="string" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="string" />
+		<string key="(case) Item Type" value="string" />
+		<string key="(case) Name" value="string" />
+		<string key="(case) Purch. Doc. Category name" value="string" />
+		<int key="(case) Purchasing Document" value="1" />
+		<string key="(case) Source" value="string" />
+		<string key="(case) Vendor" value="string" />
+	</global>
+	<global scope="event">
+		<string key="concept:name" value="name" />
+		<string key="lifecycle:transition" value="transition" />
+		<string key="org:resource" value="resource" />
+		<date key="time:timestamp" value="2022-10-04T09:19:03.380000+02:00" />
+		<float key="Cumulative net worth (EUR)" value="0.0" />
+		<string key="User" value="string" />
+	</global>
+	<trace>
+		<string key="concept:name" value="2000000030_00001" />
+		<string key="variant" value="Variant 592" />
+		<int key="variant-index" value="592" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0012" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000000030" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="CAPEX &amp; SOCS" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Laboratory Supplies &amp; Services" />
+		<string key="(case) Vendor" value="vendorID_0012" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-15T14:51:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-15T15:51:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-15T15:51:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-15T15:51:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-15T15:51:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-15T15:51:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-15T15:51:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-15T15:51:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-17T14:41:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-17T14:41:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-22T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-08T15:38:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-08T15:38:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Change Price" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-19T02:17:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="batch_01" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="batch_01" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-26T15:37:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-26T15:37:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-26T15:57:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="1098.0" />
+			<string key="User" value="user_015" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_015" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-02T16:06:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="549.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000000034_00001" />
+		<string key="variant" value="Variant 593" />
+		<int key="variant-index" value="593" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0019" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000000034" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Workforce Services" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Third Party Labor" />
+		<string key="(case) Vendor" value="vendorID_0019" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-16T10:23:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-16T11:23:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-16T11:23:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-16T11:23:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-16T11:23:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-16T11:23:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-16T11:23:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-16T11:23:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-29T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-01T14:26:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-01T14:26:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-05T16:15:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-22T16:18:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-26T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-14T09:20:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-14T09:20:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-14T13:02:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-26T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-29T15:10:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T10:35:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T10:35:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T11:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_011" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_011" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-26T11:15:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T08:25:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T08:25:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-14T15:23:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_013" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_013" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-24T13:36:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-07T16:02:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-07T16:02:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-08T06:50:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_011" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_011" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-28T14:05:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-02T12:33:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_022" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="user_022" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-02T14:36:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_022" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="user_022" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-02T14:36:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_022" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="user_022" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-02T14:36:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_022" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="user_022" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-02T15:56:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-02T15:56:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-02T15:56:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Deleted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-02T15:56:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Change Price" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-24T12:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-24T12:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-25T11:05:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-26T18:09:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-27T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-06T15:56:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-06T15:56:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-10T09:21:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_011" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_011" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-28T10:29:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-01T17:36:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-01T17:36:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-05T11:33:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_007" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_007" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-08T16:45:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-18T10:25:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-18T10:25:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-18T10:42:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-18T10:42:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-21T16:17:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-29T16:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="277128.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000000064_00001" />
+		<string key="variant" value="Variant 605" />
+		<int key="variant-index" value="605" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0040" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000000064" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Workforce Services" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="HR Services" />
+		<string key="(case) Vendor" value="vendorID_0040" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-19T19:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-19T20:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-19T20:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-19T20:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-19T20:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-19T20:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-19T20:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-19T20:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-05T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-13T12:26:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-13T12:26:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-13T13:01:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-01T14:06:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_005" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_005" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-09T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-13T14:06:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-13T14:07:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-30T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-03T13:57:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-03T13:57:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-03T15:06:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-15T16:18:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-15T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-17T08:57:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-17T08:57:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-17T14:51:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-21T13:24:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-24T13:36:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-04T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-07T13:13:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-09T02:13:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-09T02:13:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-11T15:06:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_012" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_012" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-28T14:06:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-04T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-06T14:10:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_025" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="user_025" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-09T17:56:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-09T17:56:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-12T15:22:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_013" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_013" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-26T18:09:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-27T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-31T12:29:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-31T14:29:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-31T14:29:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-31T14:29:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-31T16:40:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-31T16:40:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-31T16:40:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Deleted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-31T16:40:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Change Price" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-12T23:56:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-12T23:56:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-13T09:36:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-13T09:36:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-20T05:50:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_010" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="user_010" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-20T07:50:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_010" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="user_010" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-20T07:50:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_010" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="user_010" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-20T07:50:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_010" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="user_010" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-20T11:22:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-20T11:22:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-20T11:22:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Deleted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-20T11:22:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Change Price" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-05T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-08T14:01:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_015" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_015" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-10T23:40:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-10T23:40:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-11T13:47:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-12T12:00:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_013" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_013" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-26T11:04:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_005" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_005" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-04T11:28:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-04T11:28:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-05T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-11T00:05:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-11T00:05:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-11T10:46:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_012" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_012" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-21T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2019-01-04T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2019-01-08T13:19:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2019-01-08T13:19:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2019-01-09T11:35:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_015" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_015" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2019-01-10T15:46:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="259807.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000000198_00001" />
+		<string key="variant" value="Variant 638" />
+		<int key="variant-index" value="638" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0091" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000000198" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Workforce Services" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Travel &amp; expenses" />
+		<string key="(case) Vendor" value="vendorID_0091" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-26T10:50:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-26T11:50:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-26T11:50:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-26T11:50:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-26T11:50:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-26T11:50:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-26T11:50:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-26T11:50:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-01T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-01T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates debit memo" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-19T11:28:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-19T11:28:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-19T12:56:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-05T15:48:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-26T11:13:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-26T11:13:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-20T17:13:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Cancel Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-20T17:15:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-20T17:16:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-15T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-18T10:00:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-18T10:00:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-19T14:44:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="user_013" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_013" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2019-01-10T15:42:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="86.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000013469_00001" />
+		<string key="variant" value="Variant 1449" />
+		<int key="variant-index" value="1449" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0017" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000013469" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Workforce Services" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Third Party Labor" />
+		<string key="(case) Vendor" value="vendorID_0017" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-20T14:29:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-20T15:29:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-20T15:29:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-20T15:29:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-20T15:29:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-20T15:29:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-20T15:29:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-20T15:29:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-04T11:16:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="user_016" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="user_016" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-04T13:16:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="user_016" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="user_016" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-04T13:16:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="user_016" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="user_016" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-04T13:16:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="user_016" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="user_016" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-04T13:16:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-04T13:16:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-04T13:16:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Deleted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-04T13:16:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="129903.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Delete Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000013547_00001" />
+		<string key="variant" value="Variant 1469" />
+		<int key="variant-index" value="1469" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_1199" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000013547" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Enterprise Services" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Consulting" />
+		<string key="(case) Vendor" value="vendorID_1255" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-31T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-02-28T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-31T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-12T14:44:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-12T16:44:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-12T16:44:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-12T16:44:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-12T16:44:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-12T16:44:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-12T16:44:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-12T16:44:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-30T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T09:22:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T09:22:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T15:30:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T15:30:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T15:37:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T15:37:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T15:41:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T15:41:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T15:45:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-02T15:45:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-03T13:41:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_004" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_004" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-03T13:43:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_004" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_004" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-03T13:44:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_004" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_004" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-03T13:45:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_004" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_004" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-03T14:51:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-24T13:36:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-31T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates debit memo" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-20T15:49:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-20T15:49:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-20T15:52:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-20T15:52:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T12:50:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_012" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_012" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T13:20:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_015" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_015" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T16:15:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-23T13:40:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-31T13:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="488438.0" />
+			<string key="User" value="user_012" />
+			<string key="concept:name" value="Cancel Invoice Receipt" />
+			<string key="org:resource" value="user_012" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-06T14:08:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="244219.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000013553_00001" />
+		<string key="variant" value="Variant 1472" />
+		<int key="variant-index" value="1472" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0058" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000013553" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Marketing" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Design" />
+		<string key="(case) Vendor" value="vendorID_0058" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T11:47:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T13:47:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T13:47:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T13:47:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T13:47:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T13:47:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T13:47:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-13T13:47:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-18T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-18T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates debit memo" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-30T19:06:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-30T19:06:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-01T09:26:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-01T11:28:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-01T11:28:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-01T11:28:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-01T11:28:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-01T11:28:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-01T11:28:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Deleted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-01T11:28:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Change Price" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-09T13:55:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-24T13:34:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-26T11:05:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_012" />
+			<string key="concept:name" value="Cancel Invoice Receipt" />
+			<string key="org:resource" value="user_012" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T14:53:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="4529.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000013569_00001" />
+		<string key="variant" value="Variant 1478" />
+		<int key="variant-index" value="1478" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0017" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000013569" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Workforce Services" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Third Party Labor" />
+		<string key="(case) Vendor" value="vendorID_0017" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-03-26T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-19T14:51:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-19T16:52:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-19T16:52:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-19T16:52:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-19T16:52:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-19T16:52:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-19T16:52:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-19T16:52:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-04-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-22T15:33:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-22T15:33:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-23T09:23:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_012" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_012" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-24T13:36:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-07T13:28:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-07T13:28:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-11T13:00:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-28T14:05:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-09T15:18:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-09T15:18:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-10T11:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-10T11:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-11T12:30:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_019" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_019" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-16T16:38:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_015" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_015" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-19T13:17:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-26T18:09:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-13T15:18:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-13T15:18:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-14T12:31:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-27T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-30T15:40:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-10T12:46:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-10T12:46:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-10T16:36:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_013" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_013" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-27T14:13:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-27T14:13:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-28T10:29:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-03T10:33:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-26T11:03:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_005" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_005" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-30T11:24:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-30T11:24:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-31T11:24:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-29T16:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-03T13:52:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-03T13:52:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-03T15:17:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-03T15:17:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-04T17:57:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="user_019" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_019" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2019-01-04T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="77076.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000013637_00001" />
+		<string key="variant" value="Variant 1500" />
+		<int key="variant-index" value="1500" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0058" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000013637" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Marketing" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Design" />
+		<string key="(case) Vendor" value="vendorID_0058" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-15T11:30:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-15T13:30:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-15T13:30:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-15T13:30:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-15T13:31:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-15T13:31:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-15T13:31:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-15T13:31:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-16T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates debit memo" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-16T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-30T12:06:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-30T12:06:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-07T11:39:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-28T14:04:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-29T08:41:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Cancel Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T14:53:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="17221.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000033467_00001" />
+		<string key="variant" value="Variant 2349" />
+		<int key="variant-index" value="2349" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_1423" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000033467" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Workforce Services" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Third Party Labor" />
+		<string key="(case) Vendor" value="vendorID_1490" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-08T11:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-08T13:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-08T13:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-08T13:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-08T13:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-08T13:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-08T13:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-08T13:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-21T12:31:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-21T12:31:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-25T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-07T11:05:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-07T11:05:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-07T12:20:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="user_012" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_012" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-09T14:30:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-20T12:35:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="user_019" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_019" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-27T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-13T16:42:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-17T15:55:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="user_019" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_019" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-04T16:50:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="7896.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000033619_00001" />
+		<string key="variant" value="Variant 2369" />
+		<int key="variant-index" value="2369" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0026" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000033619" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Marketing" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Design" />
+		<string key="(case) Vendor" value="vendorID_0026" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T13:11:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T15:11:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T15:11:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T15:11:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T15:11:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T15:11:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T15:11:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-21T15:11:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-08-29T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-09-29T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-02T07:49:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_010" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="user_010" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-02T09:51:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_010" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="user_010" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-02T09:51:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_010" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="user_010" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-02T09:51:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_010" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="user_010" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-02T11:01:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-02T11:01:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-02T11:01:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Deleted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-02T11:01:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Change Price" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-12T14:56:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-12T14:56:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-13T12:50:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_001" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_001" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-13T13:39:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_013" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_013" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-15T15:35:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-29T16:16:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="10038.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000052758_00001" />
+		<string key="variant" value="Variant 264" />
+		<int key="variant-index" value="264" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_1164" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000052758" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Workforce Services" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Travel &amp; expenses" />
+		<string key="(case) Vendor" value="vendorID_1220" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-08T12:18:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-08T14:18:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-08T14:18:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-08T14:18:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-08T14:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-08T14:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-08T14:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-08T14:19:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-16T09:39:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-16T11:39:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-16T11:39:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-16T11:39:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-16T11:39:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-16T11:39:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-16T11:39:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Deleted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-16T11:39:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="311.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Delete Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000052825_00001" />
+		<string key="variant" value="Variant 264" />
+		<int key="variant-index" value="264" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0058" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000052825" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Marketing" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Design" />
+		<string key="(case) Vendor" value="vendorID_0058" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-02T07:32:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-02T08:32:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-02T08:32:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-02T08:32:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-02T08:32:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-02T08:32:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-02T08:32:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-02T08:32:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T09:37:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:37:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:37:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:37:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:38:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:38:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:38:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Deleted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:38:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="23501.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Delete Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2000052830_00001" />
+		<string key="variant" value="Variant 264" />
+		<int key="variant-index" value="264" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="EC Purchase order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="1" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0101" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="2000052830" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Marketing" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Advertising" />
+		<string key="(case) Vendor" value="vendorID_0101" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-03T10:44:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-03T11:44:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-03T11:44:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-03T11:44:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-03T11:44:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-03T11:44:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-03T11:44:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Change was Transmitted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-03T11:44:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T09:45:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Created" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:45:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Complete" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:45:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Awaiting Approval" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:45:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="user_014" />
+			<string key="concept:name" value="SRM: Document Completed" />
+			<string key="org:resource" value="user_014" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:45:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: In Transfer to Execution Syst." />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:45:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Ordered" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:45:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="batch_00" />
+			<string key="concept:name" value="SRM: Deleted" />
+			<string key="org:resource" value="batch_00" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-22T10:45:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="54356.0" />
+			<string key="User" value="user_000" />
+			<string key="concept:name" value="Delete Purchase Order Item" />
+			<string key="org:resource" value="user_000" />
+		</event>
+	</trace>
+</log>
