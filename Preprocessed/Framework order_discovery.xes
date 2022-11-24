@@ -35,1187 +35,6 @@
 		<string key="User" value="string" />
 	</global>
 	<trace>
-		<string key="concept:name" value="4507000446_00010" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="10" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0207" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507000446" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0211" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-02T15:57:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="0.0" />
-			<string key="User" value="user_116" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_116" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-19T10:59:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="0.0" />
-			<string key="User" value="user_117" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_117" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507000447_00020" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="20" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0208" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507000447" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0212" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-02T16:00:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="5816.0" />
-			<string key="User" value="user_092" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_092" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2019-01-07T13:11:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="5816.0" />
-			<string key="User" value="user_092" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_092" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507000448_00010" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="10" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0207" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507000448" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0211" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-02T16:02:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="0.0" />
-			<string key="User" value="user_116" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_116" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-19T10:59:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="0.0" />
-			<string key="User" value="user_117" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_117" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00010" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="10" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="623489.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="623489.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00020" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="20" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="228612.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="228612.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00030" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="30" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="311744.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="311744.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00040" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="40" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="12469.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="12469.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00050" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="50" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="145480.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="145480.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00060" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="60" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="8313.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="8313.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00070" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="70" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="41565.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="41565.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00080" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="80" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="103914.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="103914.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00090" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="90" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="623489.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="623489.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00100" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="100" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="8313.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="8313.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00110" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="110" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="4156.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="4156.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00120" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="120" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="8313.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="8313.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00130" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="130" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="103914.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="103914.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00140" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="140" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="62348.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="62348.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00150" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="150" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="145480.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="145480.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00160" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="160" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="18704.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="18704.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003717_00170" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="170" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0837" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003717" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0877" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T09:47:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="41565.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-18T12:53:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="41565.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003965_00180" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="180" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0845" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003965" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0885" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-19T06:34:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="16619.0" />
-			<string key="User" value="user_266" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_266" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-02-28T12:35:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="16619.0" />
-			<string key="User" value="user_267" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_267" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507003965_00280" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="280" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0845" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507003965" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0885" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-11-30T13:19:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="245.0" />
-			<string key="User" value="user_267" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_267" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-11-30T13:22:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="245.0" />
-			<string key="User" value="user_267" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_267" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507004363_00010" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="10" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0456" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507004363" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_0471" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-22T10:00:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="17.0" />
-			<string key="User" value="user_278" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_278" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-01-22T10:01:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="17.0" />
-			<string key="User" value="user_278" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_278" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4507012481_00010" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="10" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_1145" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4507012481" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Other Logistics Services" />
-		<string key="(case) Vendor" value="vendorID_1201" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-02-26T16:31:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="86602.0" />
-			<string key="User" value="user_092" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_092" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-03-01T16:11:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="86602.0" />
-			<string key="User" value="user_045" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_045" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4508042276_00020" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="20" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0104" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4508042276" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Others" />
-		<string key="(case) Spend classification text" value="OTHER" />
-		<string key="(case) Sub spend area text" value="Packaging" />
-		<string key="(case) Vendor" value="vendorID_0104" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-07-10T14:45:00+02:00" />
-			<float key="Cumulative net worth (EUR)" value="5697.0" />
-			<string key="User" value="user_158" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_158" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-10-25T10:21:00+02:00" />
-			<float key="Cumulative net worth (EUR)" value="5697.0" />
-			<string key="User" value="user_060" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_060" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4508042276_00030" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="30" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0104" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4508042276" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Others" />
-		<string key="(case) Spend classification text" value="OTHER" />
-		<string key="(case) Sub spend area text" value="Packaging" />
-		<string key="(case) Vendor" value="vendorID_0104" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-07-10T14:45:00+02:00" />
-			<float key="Cumulative net worth (EUR)" value="1275.0" />
-			<string key="User" value="user_158" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_158" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-10-25T10:21:00+02:00" />
-			<float key="Cumulative net worth (EUR)" value="1275.0" />
-			<string key="User" value="user_060" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_060" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4508042276_00040" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="40" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0104" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4508042276" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Others" />
-		<string key="(case) Spend classification text" value="OTHER" />
-		<string key="(case) Sub spend area text" value="Packaging" />
-		<string key="(case) Vendor" value="vendorID_0104" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-07-10T14:45:00+02:00" />
-			<float key="Cumulative net worth (EUR)" value="10355.0" />
-			<string key="User" value="user_158" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_158" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-10-25T10:21:00+02:00" />
-			<float key="Cumulative net worth (EUR)" value="10355.0" />
-			<string key="User" value="user_060" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_060" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4508042276_00050" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="50" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0104" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4508042276" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Others" />
-		<string key="(case) Spend classification text" value="OTHER" />
-		<string key="(case) Sub spend area text" value="Packaging" />
-		<string key="(case) Vendor" value="vendorID_0104" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-07-10T14:45:00+02:00" />
-			<float key="Cumulative net worth (EUR)" value="4835.0" />
-			<string key="User" value="user_158" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_158" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-10-25T10:21:00+02:00" />
-			<float key="Cumulative net worth (EUR)" value="4835.0" />
-			<string key="User" value="user_060" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_060" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4508052288_00020" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="20" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_0105" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4508052288" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Others" />
-		<string key="(case) Spend classification text" value="OTHER" />
-		<string key="(case) Sub spend area text" value="Packaging" />
-		<string key="(case) Vendor" value="vendorID_0105" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-08-30T13:06:00+02:00" />
-			<float key="Cumulative net worth (EUR)" value="3803.0" />
-			<string key="User" value="user_059" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_059" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-12-06T12:55:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="3803.0" />
-			<string key="User" value="user_059" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_059" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4508072729_00020" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="20" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_1596" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4508072729" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Vendor" value="vendorID_1671" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-12-06T13:43:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="8660.0" />
-			<string key="User" value="user_092" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_092" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2019-01-07T13:34:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="8660.0" />
-			<string key="User" value="user_092" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_092" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4508072733_00010" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="10" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_1314" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4508072733" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_1377" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-12-06T13:55:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="138564.0" />
-			<string key="User" value="user_092" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_092" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2019-01-07T13:35:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="138564.0" />
-			<string key="User" value="user_092" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_092" />
-		</event>
-	</trace>
-	<trace>
-		<string key="concept:name" value="4508072733_00020" />
-		<string key="variant" value="Variant 11" />
-		<int key="variant-index" value="11" />
-		<string key="creator" value="Fluxicon Disco" />
-		<string key="(case) Company" value="companyID_0000" />
-		<string key="(case) Document Type" value="Framework order" />
-		<boolean key="(case) GR-Based Inv. Verif." value="true" />
-		<boolean key="(case) Goods Receipt" value="true" />
-		<int key="(case) Item" value="20" />
-		<string key="(case) Item Category" value="3-way match, invoice after GR" />
-		<string key="(case) Item Type" value="Service" />
-		<string key="(case) Name" value="vendor_1314" />
-		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
-		<int key="(case) Purchasing Document" value="4508072733" />
-		<string key="(case) Source" value="sourceSystemID_0000" />
-		<string key="(case) Spend area text" value="Logistics" />
-		<string key="(case) Spend classification text" value="NPR" />
-		<string key="(case) Sub spend area text" value="Road Packed" />
-		<string key="(case) Vendor" value="vendorID_1377" />
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2018-12-06T13:55:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="17320.0" />
-			<string key="User" value="user_092" />
-			<string key="concept:name" value="Create Purchase Order Item" />
-			<string key="org:resource" value="user_092" />
-		</event>
-		<event>
-			<string key="lifecycle:transition" value="complete" />
-			<date key="time:timestamp" value="2019-01-07T13:35:00+01:00" />
-			<float key="Cumulative net worth (EUR)" value="17320.0" />
-			<string key="User" value="user_092" />
-			<string key="concept:name" value="Delete Purchase Order Item" />
-			<string key="org:resource" value="user_092" />
-		</event>
-	</trace>
-	<trace>
 		<string key="concept:name" value="4507000468_00010" />
 		<string key="variant" value="Variant 6" />
 		<int key="variant-index" value="6" />
@@ -4309,6 +3128,240 @@
 			<string key="lifecycle:transition" value="complete" />
 			<date key="time:timestamp" value="2019-01-10T15:43:00+01:00" />
 			<float key="Cumulative net worth (EUR)" value="762.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4507003965_00100" />
+		<string key="variant" value="Variant 424" />
+		<int key="variant-index" value="424" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="Framework order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="100" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0845" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="4507003965" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Logistics" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Road Packed" />
+		<string key="(case) Vendor" value="vendorID_0885" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-01-19T06:34:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="user_266" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_266" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-30T11:37:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="user_267" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_267" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-30T11:37:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-10-30T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-01T16:58:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="user_235" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_235" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-07T09:07:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-12T13:48:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="user_267" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_267" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-12T13:48:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-12T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-17T14:36:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="user_012" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_012" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-21T12:29:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="user_267" />
+			<string key="concept:name" value="Change Price" />
+			<string key="org:resource" value="user_267" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2019-01-17T14:40:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="3635.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4507003965_00250" />
+		<string key="variant" value="Variant 424" />
+		<int key="variant-index" value="424" />
+		<string key="creator" value="Fluxicon Disco" />
+		<string key="(case) Company" value="companyID_0000" />
+		<string key="(case) Document Type" value="Framework order" />
+		<boolean key="(case) GR-Based Inv. Verif." value="true" />
+		<boolean key="(case) Goods Receipt" value="true" />
+		<int key="(case) Item" value="250" />
+		<string key="(case) Item Category" value="3-way match, invoice after GR" />
+		<string key="(case) Item Type" value="Service" />
+		<string key="(case) Name" value="vendor_0845" />
+		<string key="(case) Purch. Doc. Category name" value="Purchase order" />
+		<int key="(case) Purchasing Document" value="4507003965" />
+		<string key="(case) Source" value="sourceSystemID_0000" />
+		<string key="(case) Spend area text" value="Logistics" />
+		<string key="(case) Spend classification text" value="NPR" />
+		<string key="(case) Sub spend area text" value="Road Packed" />
+		<string key="(case) Vendor" value="vendorID_0885" />
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-30T12:22:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="user_267" />
+			<string key="concept:name" value="Create Purchase Order Item" />
+			<string key="org:resource" value="user_267" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-30T12:25:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="user_267" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_267" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-30T12:25:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-05-30T23:59:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-06-08T12:10:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="user_013" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_013" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-07-05T14:12:00+02:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="user_002" />
+			<string key="concept:name" value="Clear Invoice" />
+			<string key="org:resource" value="user_002" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-30T13:23:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="user_267" />
+			<string key="concept:name" value="Record Goods Receipt" />
+			<string key="org:resource" value="user_267" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-30T13:23:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Record Service Entry Sheet" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-11-30T23:59:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="NONE" />
+			<string key="concept:name" value="Vendor creates invoice" />
+			<string key="org:resource" value="NONE" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-05T16:37:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="user_235" />
+			<string key="concept:name" value="Record Invoice Receipt" />
+			<string key="org:resource" value="user_235" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2018-12-21T12:29:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
+			<string key="User" value="user_267" />
+			<string key="concept:name" value="Change Price" />
+			<string key="org:resource" value="user_267" />
+		</event>
+		<event>
+			<string key="lifecycle:transition" value="complete" />
+			<date key="time:timestamp" value="2019-01-10T15:44:00+01:00" />
+			<float key="Cumulative net worth (EUR)" value="775.0" />
 			<string key="User" value="user_002" />
 			<string key="concept:name" value="Clear Invoice" />
 			<string key="org:resource" value="user_002" />
